@@ -1,0 +1,16 @@
+CodingPass Local Server
+
+A local service manager for the CodingPass website. This is not the official CodingPass installer.
+
+After installation, open it from the Start menu. The original CodingPass download folder is not needed.
+Includes the local Judge, web helper components and required DLLs. It does not include the exam module, login cache or answer history.
+
+Requires Windows 10/11 x64 and Microsoft .NET 10 Desktop Runtime (x64). Administrator rights are needed during setup.
+Bundles the Code::Blocks 25.03 MinGW compiler (GCC 14.2.0). If C:\Program Files\CodeBlocks\MinGW has no gcc/g++,
+it is installed there (CodingPass only detects the CodeBlocks compiler at that path). An existing compiler is kept, not overwritten.
+Uninstalling removes only the compiler files this setup added.
+
+Before installing, close any older version (including the old "Practice Helper") via "Stop service and exit" in its notification-area menu.
+Green icon: service ready. Grey icon: disabled or not ready yet.
+
+Uninstall from Windows "Installed apps". Cache and logs created during use are kept.
