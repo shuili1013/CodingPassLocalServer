@@ -36,5 +36,4 @@ powershell -ExecutionPolicy Bypass -File scripts\Build-Installer.ps1 -CodingPass
 - CodingPass 只在 `C:\Program Files\CodeBlocks\MinGW\bin` 偵測 CodeBlocks(gcc/g++)，所以安裝需要系統管理員權限。那裡已有編譯器就不覆蓋。
 - 偵測到 `CodingPass.Exam` 執行中時，不啟動也不停止服務。
 - 安裝介面有繁體中文和 English，需同意 `installer/licenses/Disclaimer.*.txt` 才能安裝。
-- 從舊名「CodingPass 練習助手」（PracticeBridgeTray）升級時，會清掉舊的 EXE、捷徑及自動啟動設定。
 - 需要 .NET 10 Desktop Runtime x64（Judge 使用）。
